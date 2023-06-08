@@ -22,4 +22,5 @@ class AppStrings {
   static const String bestDeal = "Best Deal";
   static const String duration = "Duration";
   static const String unlimited = "unlimited";
+  static const String alreadySubscribed = "Already Subscribed";
 }

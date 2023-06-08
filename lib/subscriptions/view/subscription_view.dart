@@ -1,10 +1,6 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:idea_test/utils/constants/app_assets.dart';
-import 'package:in_app_purchase/in_app_purchase.dart';
-import 'package:in_app_purchase_storekit/store_kit_wrappers.dart';
 
 import '../../utils/constants/app_strings.dart';
 import '../../utils/widgets/app_button.dart';
@@ -198,9 +194,6 @@ class _SubscriptionViewState extends ConsumerState<SubscriptionView> {
           type: BottomNavigationBarType.fixed,
           currentIndex: ref.watch(subscriptionProvider).tabIndex,
           iconSize: 24,
-          /* onTap: (index) {
-            ref.watch(subscriptionProvider).onTapTab(index);
-          }*/
           elevation: 5),
     );
   }
